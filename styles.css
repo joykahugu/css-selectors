@@ -1,0 +1,21 @@
+h1 {
+    font-size: 70px;
+}
+p {
+    font-size: 2rem;
+    color: red;
+}
+.p1{
+    color: antiquewhite;
+}
+.bananas {font-size: 30px;
+          color: purple;
+}
+#zindua {font-size: 100px;
+color: greenyellow;
+}
+
+img[class] {
+    height: 350px;
+    width: 350px;
+}
