@@ -7,3 +7,89 @@
     color: antiquewhite;
     padding: 15px;
 }
+ .mydiv {
+    color: blueviolet;
+}
+div h1 { 
+    color: aqua;
+}
+
+button:hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+
+.mylist li:first-child{
+    color: red;
+ font-weight: 900;
+ list-style-type: circle;
+}
+.mylist2 li:last-child {
+    color: gold;
+}
+
+.mylist3 li:nth-child(4) {
+    color: blue;
+    text-decoration: underline;
+}
+
+.mylist4 li:nth-child(odd){
+    color: red;
+    font-weight: 600;
+    list-style-type: square;
+}
+input:focus {
+    border: 2px solid blue;
+    outline: none;
+    background-color: blanchedalmond;
+
+}
+.form2 input:checked {
+    accent-color: green;
+}
+.form3 input:disabled {
+    background-color:darkgray;
+    color: brown; 
+    cursor: not-allowed;
+}
+.box2 .box3 h3{
+    color: crimson;
+}
+
+.box2 .box3 .box4 h4{
+    color: blue;
+}
+.box2 .box3 .box4 p{
+    color: green;
+}
+
+/*Hexadecimal Code */ 
+
+.my-colors {
+    color: black;
+    background-color: rgb(0, 0, 520) ;
+}
+.grd div {
+    height: 80px;
+    width: 100%;
+}
+
+.grd .topBottom {
+    background: linear-gradient(blue, yellow, green);
+}
+
+.grd .rightLeft {
+    background: linear-gradient(to right, blue, yellow, green);
+}
+
+.grd .mySpan1 { 
+color: blueviolet;
+}
+
+.container { 
+    display: grid;
+    height: 7cm; width: 7cm;
+    background-color: gray;
+    outline: black;
+    cursor: pointer;
+}
