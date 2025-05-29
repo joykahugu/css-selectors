@@ -88,8 +88,58 @@ color: blueviolet;
 
 .container { 
     display: grid;
+    text-align: center;
     height: 7cm; width: 7cm;
-    background-color: gray;
-    outline: black;
+    background-color: white;
+    outline: gray;
     cursor: pointer;
+    box-shadow: 5px -5px gray;
+}
+.contact h1{ 
+    color: brown;
+}
+.container2 { 
+    display: grid;
+    text-align: center;
+    height: 7cm; width: 7cm;
+    background-color: white;
+    ;
+    cursor: pointer;
+    box-shadow: -5px 5px, 5px -5px gray;
+}
+body { 
+    background-image: url(davies-designs-studio-f5_lfi2S-d4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* Fonts- style and adjust type of text used 
+font family- eg. Arial family: arial black, arial rounded...
+font size- 
+font weight
+*/
+h1 { 
+    
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 50px;
+  text-align: left;
+  text-decoration:underline solid;
+  text-transform: uppercase; /*can be lowercase, capitalized, uppercase etc*/
+  text-emphasis:circle; /*dot, circle, appear on top of text*/ 
+}
+
+p {
+    line-height: 0.5;
+}
+.mybox { 
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 30px;
+    background-color: blanchedalmond;
+   border-radius: 8px;
 }
