@@ -18,3 +18,18 @@ th {
 .zebra tr:hover {
     background-color: beige;
 }
+#zinduaclass{ 
+    background-color: maroon;
+    }
+table{
+    border-collapse: collapse;
+    border: 5px solid brown;
+    text-align: center;
+}
+#female {
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+tr:hover {
+    background-color: beige;
+}
