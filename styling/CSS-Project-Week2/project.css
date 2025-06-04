@@ -1,0 +1,96 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+}
+
+.shopping-cart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.shopping-cart p {
+    color: gray;
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0%;
+}
+
+h5 {
+    font-weight: bold;
+    margin-top: 0;
+
+}
+
+.searchbar {
+    border-color: white;
+    width: 180px;
+    height: 30px;
+}
+
+button {
+    background-color: white;
+    border-color: azure;
+    height: 30px;
+}
+
+.description {
+    color: gray;
+    font-size: small;
+    margin-top: 0%;
+}
+
+.buy-now {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    margin-right: 60px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px;
+    margin-left: 0%;
+    margin-right: 0%;
+
+
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-width: 120px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 640px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

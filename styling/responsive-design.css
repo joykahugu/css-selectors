@@ -21,6 +21,8 @@ body {
     box-shadow: 0 4p 6px rgba(0, 0, 0, 1)
 }
 
+
+
 @media (min-width: 640px) {
     .grid-container { 
         grid-template-columns: repeat(2, 1fr);
