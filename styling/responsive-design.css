@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr; /*fr-fraction of grid*/
+    gap: 16px; /*standard*/
+    padding: 16px;
+}
+
+.grid-container img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: cover; /*crops images to fit given height, instead of 
+    zooming in, retain quality */
+    border-radius: 8px; /*standard for images*/
+    box-shadow: 0 4p 6px rgba(0, 0, 0, 1)
+}
+
+@media (min-width: 640px) {
+    .grid-container { 
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-container { 
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
