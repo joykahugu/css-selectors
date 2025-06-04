@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <h1 class="text-3xl font-bold underline text-red-500">
+        Hello World!
+    </h1>
+    <p class="text-xs">Extra Small</p>
+    <p class="text-base"> Base (Default)</p>
+    <p class="text-lg"> Large</p>
+    <p class="text-4xl"> 4XL size</p>
+    <p class="text-9xl"> 9xl large</p>
+
+    <!-- Responsive Text Size-->
+    <p class="text-sm md:text-lg lg:text-3xl">
+        This text starts small, becomes large on medium and
+        huge on large screen.
+    </p>
+
+    <!--Text color-->
+    <p class="text-red-500">Red Text</p>
+    <p class="text-red-300">Red Text</p>
+    <p class="text-red-900">Red Text</p>
+
+    <!--Runs from 50-950-->
+    <div>
+        <div class="bg-sky-50"> 1</div>
+        <div class="bg-sky-100"> 2</div>
+        <div class="bg-sky-200">3</div>
+        <div class="bg-sky-300">4</div>
+        <div class="bg-sky-400">5</div>
+        <div class="bg-sky-500">6</div>
+        <div class="bg-sky-600">7</div>
+        <div class="bg-sky-700">8</div>
+        <div class="bg-sky-800">9</div>
+        <div class="bg-sky-900">10</div>
+        <div class="bg-sky-950">11</div>
+    </div>
+
+    <!--Font weight-->
+    <p class="font-light">Light</p>
+    <p class="font-bold">Bold</p>
+    <br><br>
+    <p class="font-light ...">The quick brown fox ...</p>
+    <p class="font-normal ...">The quick brown fox ...</p>
+    <p class="font-medium ...">The quick brown fox ...</p>
+    <p class="font-semibold ...">The quick brown fox ...</p>
+    <p class="font-bold ...">The quick brown fox ...</p>
+
+    <!--Font style and Alignment-->
+    <p class="text-center">Centered Text</p>
+    <p class="text-right">Right Text</p>
+    <p class="italic">Left Text</p>
+    <p class="text-left md:text-center lg:text-right"> Responsive text</p> <!--text-left is 
+    default(on mobile) md, for tablets, lg for desktop-->
+
+    <!-- Spacing: margin and padding-->
+    <p class="m-4">Margin on all sides</p>
+    <p class="ml-4">16px margin on left side</p>
+    <p class="mr-4">16px margin on right side</p>
+    <p class="mt-4">16px Margin on top side</p>
+    <p class="mb-4"> 16px Margin on bottom side</p>
+    <p class="m-auto"> auto-margin(centered)</p>
+    <p class="text-right mr-4">Margin on all sides</p>
+    <div class="space-y-2">
+
+        <!-- All sides -->
+        <div class="m-4 bg-yellow-100 p-2">m-4 = 16px on all sides</div>
+
+        <!-- Top -->
+        <div class="mt-4 bg-red-100 p-2">mt-4 = 16px top margin</div>
+
+        <!-- Bottom -->
+        <div class="mb-4 bg-green-100 p-2">mb-4 = 16px bottom margin</div>
+
+        <!-- Left -->
+        <div class="ml-4 bg-blue-100 p-2">ml-4 = 16px left margin</div>
+
+        <!-- Right -->
+        <div class="mr-4 bg-purple-100 p-2">mr-4 = 16px right margin</div>
+
+        <!-- Horizontal -->
+        <div class="mx-4 bg-orange-100 p-2">mx-4 = 16px left & right</div>
+
+        <!-- Vertical -->
+        <div class="my-4 bg-pink-100 p-2">my-4 = 16px top & bottom</div>
+
+        <!-- Auto (center element horizontally) -->
+        <div class="w-1/2 m-auto bg-gray-200 p-2 text-center">m-auto = auto margin (centered)</div>
+
+    </div>
+
+
+    <!--Padding-->
+    div class="p-8 ...">p-8</div>
+    <div class="space-y-2 bg-gray-50">
+
+        <!-- All sides -->
+        <div class="p-4 bg-yellow-200">p-4 = 16px padding all around</div>
+
+        <!-- Top only -->
+        <div class="pt-6 bg-red-200">pt-6 = 24px top padding</div>
+
+        <!-- Bottom only -->
+        <div class="pb-6 bg-green-200">pb-6 = 24px bottom padding</div>
+
+        <!-- Left only -->
+        <div class="pl-6 bg-blue-200">pl-6 = 24px left padding</div>
+
+        <!-- Right only -->
+        <div class="pr-6 bg-purple-200">pr-6 = 24px right padding</div>
+
+        <!-- Horizontal only -->
+        <div class="px-6 bg-orange-200">px-6 = 24px left & right</div>
+
+        <!-- Vertical only -->
+        <div class="py-6 bg-pink-200">py-6 = 24px top & bottom</div>
+
+        <!--Responsive padding-->
+
+        <div class="p-2 md:p-6 lg:p=12 bg-cyan-200">
+            Padding grows on large screens
+        </div>
+        <br><br>
+
+        <!--Custom padding-->
+        <div class="p-[50px] bg-blue-200">
+            Padding grows on large screens(custom padding)
+        </div>
+
+        <!--Layout Utilities-->
+        <!--Width and Height-->
+        <div class="w-1/2 h-32 bg-blue-500">
+            50% width, 8rem height
+        </div>
+        <div class="w-full bg-gray-600 text-white"> Full width</div>
+        <div class="w-full h-screen bg-gray-600">Full height</div>
+
+
+        <!--display-->
+        <div class="block"> Block</div>
+        <span class="inline-block">Inline Block display</span>
+
+        <span class="inline-grid grid-cols-3 gap-9"> <!--within the text line-->
+            <span class="bg-blue-600">01</span>
+            <span>02</span>
+            <span>03</span>
+            <span>04</span>
+            <span>05</span>
+            <span>06</span>
+        </span>
+        <span class="inline-grid grid-cols-3 gap-4">
+            <span>01</span>
+            <span>02</span>
+            <span>03</span>
+            <span>04</span>
+            <span>05</span>
+            <span>06</span>
+        </span>
+
+        <!--using flex-->
+        <div class="flex items-center bg-black">
+            <p class="font-bold text-red-800 text-lg text-center">Andrew Alfred</p>
+            <div>
+                <p class="text-white font-light text-center">Technical advisor</p>
+            </div>
+        </div>
+</body>
+
+</html>
