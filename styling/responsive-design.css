@@ -27,10 +27,17 @@ body {
     .grid-container { 
         grid-template-columns: repeat(2, 1fr);
     }
+    body{ 
+        background-color: aquamarine;
+    }
 }
 
 @media (min-width: 1024px) {
     .grid-container { 
         grid-template-columns: repeat(3, 1fr);
     }
+    body {
+        background-color: blueviolet;
+    }
 }
+/* initial background-color/ first styling becomes default for mobile phones*/
